@@ -1,0 +1,2 @@
+# add this to your cron tab in: var/spool/cron/crontabs/root (this will restart your blynk hardware latest after 1 minute again if down
+* * * * * python /home/pi/pyhton/blynkwatchdog.py #python blynkwatchdog.py
